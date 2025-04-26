@@ -81,6 +81,8 @@ iii. Connect!
 **2. Practice basic SQL operations (create, read, update, delete) on the database.**
 
 
+
+
 **i. To create simple table on the database, click on the SQL Editor and run this script;**
 
 CREATE TABLE datasets (
@@ -124,7 +126,11 @@ SELECT * FROM datasets;
 
 
 
-**Set up and test DynamoDB for a simple key-value store**
+**3. Set up and test DynamoDB for a simple key-value store**
+
+
+
+
 
 **1. Sign in to AWS Console**
 
