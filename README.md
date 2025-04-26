@@ -63,6 +63,10 @@ ii. Click your instance name.
 iii. Copy the Endpoint and Port (you’ll use them in your DB client).
 
 
+![Task](photo/data_1.JPG)
+
+
+
 **Step 9: Connect Using a Database Client**
 
 Depending on the engine you chose, For my PostgreSQL, I used DBeaver.
@@ -75,6 +79,10 @@ ii. Create a new connection:
     User: admin (or yours)
     Password: enter your password.
 iii. Connect!
+
+
+
+![Task](photo/data2_1.JPG)
 
 
 
@@ -94,6 +102,12 @@ CREATE TABLE datasets (
     age INT
 );
 
+
+
+![Task](photo/datapg_1.JPG)
+
+
+
 **ii. Insert Data, you run this script;**
 
 INSERT INTO
@@ -102,6 +116,12 @@ VALUES (1, 'tobisolarin', 'st john', 'Lagos', 'tobisolarin@example.com', 25)
 
 
 ***iii. To Read to fetch Data, You run this script;**
+
+
+
+![Task](photo/datapg_2.JPG)
+
+
 
 SELECT * FROM datasets;
 
@@ -115,6 +135,11 @@ You will notice the age of tobisolarin is updated to from 25 to 26 once you run 
 
 SELECT * FROM datasets;
 
+
+![Task](photo/datapg_3.JPG)
+
+
+
 **V. To Delete - Remove Data, you run this script**
 
 DELETE FROM users
@@ -123,6 +148,10 @@ WHERE name = 'maryjane';
 You will notice maryjane data is deleted from the datasets once you run the script;
 
 SELECT * FROM datasets;
+
+
+
+![Task](photo/datapg_4.JPG)
 
 
 
@@ -160,6 +189,13 @@ iii. Set Read/Write capacity mode:
 
 iv. Click Create table
 
+
+
+![Task](photo/datadb_1.JPG)
+
+
+
+
 **Step 4: Add an Item (Create)**
 
 i. Go to your table.
@@ -174,6 +210,13 @@ Add an item using the Json script:
 }
 
 iv. Create item.
+
+
+
+![Task](photo/datadb_2.JPG)
+
+
+
 
 **Step 5: Read an Item**
 
@@ -198,6 +241,9 @@ iii. Change the value using the Json command;
   "value": "tobi_updated"
 }
 
+
+
+![Task](photo/datadb_3.JPG)
 
 
 
